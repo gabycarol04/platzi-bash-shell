@@ -6,4 +6,3 @@ infoKernel=$(uname -a)
 
 echo "La ubicación actual es la siguiente: $ubicacionActual"
 echo "Información del kernel: $infoKernel"
-
