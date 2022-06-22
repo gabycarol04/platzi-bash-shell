@@ -9,13 +9,13 @@ echo "Programa Utilidades Postgres"
 
 #Acepta el ingreso de información de solo un caracter
 
-read -n[1] -p "Ingresar una opcion: " option
+read -n 1 -p "Ingresar una opcion: " option
 #echo -e "\n"
 
-read -n[10] -p "Ingresar el nombre del archivo del backup: " backupName
+read -n 10 -p "Ingresar el nombre del archivo del backup: " backupName
 #echo -e "\n"
 
 echo "Opción: $option, backupName: $backupName"
 
 # -p es para poder imprimir una frase antes de captar el input en la variable
-# -n permite que la ruta se mantenga en la misma linea hasta que demos enter o coloquemos un elemento con la cantidad de caracteres indicados (en este caso 1)
+# -n -n option and provide a number to set the character limit
